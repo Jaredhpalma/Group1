@@ -157,7 +157,7 @@
                             <div class="modal-content">
                               <div class="modal-body text-center">
                                 <h1 class="text-danger" style="font-size: 50px"><strong>!</strong></h1>
-                                <h5>Are you sure you want to delete this book?</h5>
+                                <h5>Are you sure you want to delete this Movie?</h5>
                                 <h6>This action cannot be undone.</h6>
                               </div>
                               <div class="modal-footer d-flex justify-content-center">
