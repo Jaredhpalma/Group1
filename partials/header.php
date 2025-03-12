@@ -46,17 +46,17 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">IPT2 MidTermProj</span>
+        <span class="d-block ms-3" style="font-size:21px;">Movie Information Management System</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
 
     <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="POST" action="#">
-        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-      </form>
-    </div><!-- End Search Bar -->
+    <form class="search-form d-flex align-items-center" method="GET" action="">
+        <input type="text" name="search" placeholder="Search" value="<?php echo $_GET['search'] ?? ''; ?>">
+        <button type="submit"><i class="bi bi-search"></i></button>
+    </form>
+</div><!-- End Search Bar -->
 
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
@@ -70,13 +70,13 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">J. Dela Cruz</span>
-          </a><!-- End Profile Iamge Icon -->
+            <img src="assets/img/IMG-2498.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">J.H. Palma</span>
+          </a><!-- End Profile Image Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Juan Dela Cruz</h6>
+              <h6>Jared Hope Palma</h6>
               <span>Web Designer</span>
             </li>
             <li>

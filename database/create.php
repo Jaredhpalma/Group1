@@ -3,13 +3,13 @@ session_start();
 include('database.php'); 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $title = $_POST['Title'];
-    $Author = $_POST['Genre'];
-    $Genre = $_POST['Rating'];
-    $Date_Published = $_POST['YearReleased'];
+    $Title = $_POST['Title'];
+    $Genre = $_POST['Genre'];
+    $Rating = $_POST['Rating'];
+    $YearReleased = $_POST['YearReleased'];
 
     
-    $sql = "INSERT INTO movies (title, Author, Genre, Date_Published) VALUES ('$Title', '$Genre', '$Rating', '$YearReleased')";
+    $sql = "INSERT INTO movies (Title, Genre, Rating, YearReleased) VALUES ('$Title', '$Genre', '$Rating', '$YearReleased')";
 
     if (mysqli_query($conn, $sql)) {
         $_SESSION['status'] = "created";

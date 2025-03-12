@@ -4,17 +4,17 @@ include('database.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id = $_POST['id'];
-    $title = $_POST['Title'];
-    $author = $_POST['Genre'];
-    $genre = $_POST['Rating'];
-    $date_published = $_POST['YearReleased'];
+    $Title = $_POST['Title'];
+    $Genre = $_POST['Genre'];
+    $Rating = $_POST['Rating'];
+    $YearReleased = $_POST['YearReleased'];
 
     
     $sql = "UPDATE movies SET 
-            title='$Title', 
-            Author='$Genre', 
-            Genre='$Rating', 
-            Date_Published='$YearReleased' 
+            Title='$Title', 
+            Genre='$Genre', 
+            Rating='$Rating', 
+            YearReleased='$YearReleased' 
             WHERE id='$id'";
 
     if (mysqli_query($conn, $sql)) {
