@@ -181,6 +181,15 @@
               </tbody>
             </table>
           </div>
+          <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
         </div>
 
       </div>
@@ -189,6 +198,22 @@
 
 </main><!-- End #main -->
 
+                        <div class="modal fade" id="ProfileModal" tabindex="-1" aria-labelledby="ViewModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title">Profile</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                    <img src="assets/img/IMG-2498.jpg" alt="Profile" class="rounded-circle">
+                                    <h6>Jared Hope Palma</h6>
+                                    <span>Web Designer</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         <!-- Create (Add Movie) Modal -->
                         <div class="modal fade" id="addMovieModal" tabindex="-1" aria-labelledby="addMovieLabel" aria-hidden="true">
                           <div class="modal-dialog">

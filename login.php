@@ -87,7 +87,7 @@
                         <label class="form-check-label" for="rememberMe">Remember me</label>
                       </div>
                     </div>
-                    <div class="col-12"><a href="index.php"></a>
+                    <div class="col-12">
                       <button class="btn btn-primary w-100" type="submit"><a href="index.php">Login</a></button>
                     </div>
                     <div class="col-12">
